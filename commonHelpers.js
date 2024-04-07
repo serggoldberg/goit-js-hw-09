@@ -3,9 +3,9 @@ import"./assets/styles-f3635d75.js";import{S as t}from"./assets/vendor-10cb7c31.
             <img 
               class="gallery-image" 
               src="${o}" 
-              alt="Image ${i}" 
+              alt="${i}" 
               />
           </a>
         </li>
-        `).join("")}new t(".gallery a",{captionsData:"alt",captionsDelay:250});
+        `).join("")}new t(".gallery a",{captionsData:"alt",captionDelay:250});
 //# sourceMappingURL=commonHelpers.js.map
