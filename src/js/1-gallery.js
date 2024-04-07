@@ -77,7 +77,7 @@ const images = [
             <img 
               class="gallery-image" 
               src="${preview}" 
-              alt="Image ${description}" 
+              alt="${description}" 
               />
           </a>
         </li>
@@ -87,5 +87,5 @@ const images = [
   }
   const lightbox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
-    captionsDelay: 250,
+    captionDelay: 250,
   });

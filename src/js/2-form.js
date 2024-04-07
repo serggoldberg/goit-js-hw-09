@@ -24,12 +24,8 @@ textarea.addEventListener('input', saveFormData);
 form.addEventListener('submit', function (event) {
   event.preventDefault();
   if (emailInput.value.trim() === '' || textarea.value.trim() === '') {
-    return alert('Заповніть усі поля');
+    return alert('fill in all fields');
   }
-  console.log({
-    email: emailInput.value.trim(),
-    message: textarea.value.trim(),
-  });
   saveFormData();
   form.reset();
   localStorage.removeItem(STORAGE_KEY);
